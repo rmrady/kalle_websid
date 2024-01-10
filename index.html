@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kalle</title>
+    <title>کاله-لذت زندگی</title>
+    <link rel="icon" href="./assets/images/kale logo.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="assets/css/master.css">
+    <!-- master css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Swiper css -->
 </head>
-<body>
-    
-</body>
-</html>
+
+<body class="w-full 2xl:container h-[75vh] mx-auto">
+    <div class="fullHeader">
+        <nav id="navbar"
+            class="w-[100%] h-[100px] md:h-[150px] md:bg-transparent bg-[#ee3439] flex items-center justify-between md:px-[100px] px-[30px] fixed z-[999] top-0 left-0">
+            <div class=" hambMenu">
+                <ul class="flex items-center justify-center flex-col">
+                    <li class="my-4 text-[#ee3439] text-2xl"><a href="#">خانه</a></li>
+                    <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">محصولات</a></li>
+                    <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">کتاب کاله</a></li>
+                    <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">اخبار</a></li>
+                    <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">تماس با ما</a></li>
+                    <li class="my-4 text-[#585858] hover:text-[#ee3439] text-2xl"><a href="#">درباره ما</a></li>
+                </ul>
+            </div>
+            <div class=" hidden md:flex h-full bg-[#ee3439] items-end p-6 relative z-10">
+                <span id="hambMenuIcon1" class="text-[#fff] text-3xl cursor-pointer select-none rotate-90">
+                    <span>|</span>
+                    <span>|</span>
+                    <span>|</span>
+                </span>
+            </div>
+            <figure>
+                <img class="w-[80px] h-[50px] relative z-10" src="assets/images/kale logo.png" alt="">
+            </figure>
+            <div id="navbarIcons" class="hidden md:flex translate-x-20 navbarIcons"><i class="bi bi-instagram"></i>
+                <i
+                    class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-twitter"></i>
+                <i
+                    class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-search"></i>
+                <i
+                    class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-cart"></i>
+                <i
+                    class="mx-[7px] cursor-pointer text-2xl text-[#585858] hover:text-[#ee3439] transition-all bi bi-globe-central-south-asia"></i>
+            </div>
+            <div class="md:hidden flex ">
+                <i class="mx-[8px] cursor-pointer text-2xl text-white transition-all bi bi-search"></i>
+                <i class="mx-[8px] cursor-pointer text-2xl text-white transition-all bi bi-cart"></i>
+                <i
+                    class="ml-7 mx-[12px] cursor-pointer text-2xl text-white transition-all bi bi-globe-central-south-asia"></i>
+                <div class="rotate-90">
+                    <span id="hambMenuIcon2" class="text-[#fff] relative text-3xl cursor-pointer select-none ">
+                        <span>|</span>
+                        <span>|</span>
+                        <span>|</span>
+                    </span>
+                </div>
+            </div>
+        </nav>
