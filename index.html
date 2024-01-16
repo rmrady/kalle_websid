@@ -510,6 +510,77 @@
                     </div>
                 </div>
             </footer>
-
 </body>
+<script src="assets/js/hambMenu.js"></script>
+<!-- hamb menu -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="assets/js/HeaderSwipers.js"></script>
+<script src="assets/js/100vh2Swiper.js"></script>
+<script src="assets/js/100vh3Swiper.js"></script>
+<script>
+    var swiperLogo = new Swiper(".mySwiper-logo", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        centeredSlides: true,
+        loopedSlides: 8,
+        centeredSlides: true,
+        // slidesPerView: 'auto',
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+            },
+        },
+    });
+
+    var swiper = new Swiper(".mySwiper-kalle", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        loop: true,
+        pagination: {
+            el: ".swiper-paginationta",
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+            },
+        },
+    });
+</script>
 </html>
