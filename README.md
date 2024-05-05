@@ -2,7 +2,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/ShaanCoding/ReadME-Generator">
-<img src="assets/images/readme.png" alt="Logo" width="80" height="80">
+<img src="assets/image/kale logo.png" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">Kalle website</h3>
 <p align="center">
@@ -19,7 +19,7 @@ kalle  is amazing  website
 
  ## About The Project
 
-![Product Screenshot](assets/image/kale logo.png)
+![Product Screenshot](assets/image/readme.png)
 
 In my opinion, the Kalle website is one of the best Persian websites that has all the effects and sliders and is a very good site for practice. I designed this site with my friends and we had a lot of fun.
  ### Built With
