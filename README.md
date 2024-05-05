@@ -2,7 +2,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/ShaanCoding/ReadME-Generator">
-<img src="assets/images/kale logo.png" alt="Logo" width="80" height="80">
+<img src="assets/images/kale logo.png" alt="Logo" width="90" height="90">
 </a>
 <h3 align="center">Kalle website</h3>
 <p align="center">
